@@ -21,30 +21,30 @@ export const RightSidebar = () => {
         <div className="pl-10 pt-5">
             
             <h1>Campaign Name</h1>
-            <ol class="relative mt-3 border-s border-gray-200 dark:border-gray-700">                  
-                <li class="mb-10 ms-6">    
+            <ol className="relative mt-3 border-s border-gray-200 dark:border-gray-700">                  
+                <li className="mb-10 ms-6">    
                     <div className="flex gap-5 ">
                         <Mail size={40} style={{marginLeft:"-45px",padding:"10px",borderRadius:"50%"}} className="dark:bg-[#41464B]"/>
                         <div className="">
-                            <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Step 1: Email</h3>
+                            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Step 1: Email</h3>
                             <span className="flex gap-2 items-center"> <Send size={12}/> Sent, 3rd Feb </span>
                         </div>
                     </div>        
                 </li>
-                <li class="mb-10 ms-6">    
+                <li className="mb-10 ms-6">    
                     <div className="flex gap-5 ">
                         <Mail size={40} style={{marginLeft:"-45px",padding:"10px",borderRadius:"50%"}} className="dark:bg-[#41464B]"/>
                         <div className="">
-                            <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Step 1: Email</h3>
+                            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Step 1: Email</h3>
                             <span className="flex gap-2 items-center"> <MailOpen size={12}/> Opened, 5th Feb </span>
                         </div>
                     </div>        
                 </li>
-                <li class="mb-10 ms-6">    
+                <li className="mb-10 ms-6">    
                     <div className="flex gap-5 ">
                         <Mail size={40} style={{marginLeft:"-45px",padding:"10px",borderRadius:"50%"}} className="dark:bg-[#41464B]"/>
                         <div className="">
-                            <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Step 1: Email</h3>
+                            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Step 1: Email</h3>
                             <span className="flex gap-2 items-center"> <MailOpen size={12}/> Opened, 5th Feb </span>
                         </div>
                     </div>        

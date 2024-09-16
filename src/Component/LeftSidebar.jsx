@@ -13,7 +13,7 @@ export const LeftSidebar = () => {
                   25/25 <span className="text-[#7F7F7F]">Inbox Selected</span>
                 </p>
                 <input
-                  class="flex mt-3 h-8 w-full rounded-md border border-black/30 dark:border-white/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600"
+                  className="flex mt-3 h-8 w-full rounded-md border border-black/30 dark:border-white/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600"
                   placeholder="Search"
                 />
                 <div className="flex justify-between items-center mt-4">
@@ -43,7 +43,7 @@ export const LeftSidebar = () => {
                 </div>
                 <div className="mt-2 flex gap-3">
                   <button className="rounded-full flex gap-1 items-center px-3 bg-[#F0F0F0] dark:bg-[#2D3833]">
-                    <span class="w-2 h-2 bg-green-500 rounded-full"></span><small className="text-green-500"> Interested</small>
+                    <span className="w-2 h-2 bg-green-500 rounded-full"></span><small className="text-green-500"> Interested</small>
                   </button>
                   <button className="flex gap-2 items-center rounded-full px-2 bg-[#F0F0F0] dark:bg-[#2D3833]">
                     <Send size={15} /> <small>Campaign Name</small>
@@ -65,7 +65,7 @@ export const LeftSidebar = () => {
                 </div>
                 <div className="mt-2 flex gap-3">
                   <button className="rounded-full flex gap-1 items-center px-3 bg-[#F0F0F0] dark:bg-[#2D3833]">
-                    <span class="w-2 h-2 bg-blue-500 rounded-full"></span><small className="text-blue-500"> Closed</small>
+                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span><small className="text-blue-500"> Closed</small>
                   </button>
                   <button className="flex gap-2 items-center rounded-full px-2 bg-[#F0F0F0] dark:bg-[#2D3833]">
                     <Send size={15} /> <small>Campaign Name</small>
@@ -87,7 +87,7 @@ export const LeftSidebar = () => {
                 </div>
                 <div className="mt-2 flex gap-3">
                   <button className="rounded-full flex gap-1 items-center px-3 bg-[#F0F0F0] dark:bg-[#2D3833]">
-                    <span class="w-2 h-2 bg-green-500 rounded-full"></span><small className="text-green-500"> Interested</small>
+                    <span className="w-2 h-2 bg-green-500 rounded-full"></span><small className="text-green-500"> Interested</small>
                   </button>
                   <button className="flex gap-2 items-center rounded-full px-2 bg-[#F0F0F0] dark:bg-[#2D3833]">
                     <Send size={15} /> <small>Campaign Name</small>
@@ -109,7 +109,7 @@ export const LeftSidebar = () => {
                 </div>
                 <div className="mt-2 flex gap-3">
                   <button className="rounded-full flex gap-1 items-center px-3 bg-[#F0F0F0] dark:bg-[#2D3833]">
-                    <span class="w-2 h-2 bg-violet-500 rounded-full"></span><small className="text-violet-500"> Interested</small>
+                    <span className="w-2 h-2 bg-violet-500 rounded-full"></span><small className="text-violet-500"> Interested</small>
                   </button>
                   <button className="flex gap-2 items-center rounded-full px-2 bg-[#F0F0F0] dark:bg-[#2D3833]">
                     <Send size={15} /> <small>Campaign Name</small>
@@ -131,7 +131,7 @@ export const LeftSidebar = () => {
                 </div>
                 <div className="mt-2 flex gap-3">
                 <button className="rounded-full flex gap-1 items-center px-3 bg-[#F0F0F0] dark:bg-[#2D3833]">
-                    <span class="w-2 h-2 bg-yellow-500 rounded-full"></span><small className="text-yellow-500"> Interested</small>
+                    <span className="w-2 h-2 bg-yellow-500 rounded-full"></span><small className="text-yellow-500"> Interested</small>
                   </button>
                   <button className="flex gap-2 items-center rounded-full px-2 bg-[#F0F0F0] dark:bg-[#2D3833]">
                     <Send size={15} /> <small>Campaign Name</small>
