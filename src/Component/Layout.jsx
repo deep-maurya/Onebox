@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Home, BarChart, Copy, Bookmark, Users, Settings, ChevronDown, Sun, Moon, UserRoundSearch, Mail, Send, Inbox, Logs } from 'lucide-react';
 import logo from "../assets/Logo_12.png";
+import { Link } from 'react-router-dom';
 
 export function Layout({ children }) {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -22,27 +23,27 @@ export function Layout({ children }) {
       <aside className="flex h-full w-16 flex-col items-center overflow-y-auto bg-white dark:bg-[#101113] py-5">
         <nav className="flex flex-1 flex-col items-center space-y-6">
           <img src={logo} alt="Logo" style={{ marginBottom: "50px" }} className="h-8 w-8" />
-          <a href="#" className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+          <Link to={'#'} className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
             <Home size={24} />
-          </a>
-          <a href="#" className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+          </Link>
+          <Link to={'#'} className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
             <UserRoundSearch size={24} />
-          </a>
-          <a href="#" className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+          </Link>
+          <Link to={'#'} className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
             <Mail size={24} />
-          </a>
-          <a href="#" className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+          </Link>
+          <Link to={'#'} className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
             <Send size={24} />
-          </a>
-          <a href="#" className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+          </Link>
+          <Link to={'#'} className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
             <Logs size={24} />
-          </a>
-          <a href="#" className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+          </Link>
+          <Link to={'#'} className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
             <Inbox size={24} />
-          </a>
-          <a href="#" className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
+          </Link>
+          <Link to={'#'} className="rounded-lg p-1.5 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none">
             <BarChart size={24} />
-          </a>
+          </Link>
         </nav>
 
         <div className="flex flex-col items-center space-y-6">

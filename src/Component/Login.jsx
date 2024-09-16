@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/onebox.png';
 import Googlelogo from '../assets/Frame.png';
+import { Link } from 'react-router-dom';
 
 export const Login = () => {
   return (
@@ -35,7 +36,7 @@ export const Login = () => {
                     >
                     Create an Account
                 </button>
-                <p className='mt-3 text-[#909296]'>Already have an account? <span className='text-[#C1C2C5]'>Sign In</span> </p>
+                <p className='mt-3 text-[#909296]'>Already have an account? <span className='text-[#C1C2C5]'> <Link to={'/page1'}>Sign In</Link> </span> </p>
             </div>
          
         </div>
